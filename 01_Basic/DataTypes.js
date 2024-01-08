@@ -2,7 +2,7 @@
 
 // alert("Hello")
 
-let name = "hitesh"
+let name = "Suraj"
 let age = 18
 let isloggedIn = false
 
@@ -17,3 +17,4 @@ let isloggedIn = false
 // object 
 
 console.log(typeof "Suraj");
+
