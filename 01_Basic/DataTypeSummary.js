@@ -27,3 +27,27 @@ console.log("Hello World");
 
 console.log(typeof bigNumber);
  
+
+// ++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive) , Heap(Non-Primitive)
+
+let myName = "Suraj"
+
+let anothername = myName
+anothername = "chaiaurcode"
+
+console.log(myName);
+console.log(anothername);
+
+let user ={
+    email: "user@gmail.com",
+    upi: "@user02",
+}
+
+let user1 = user
+
+user1.email = "suraj@google.com"
+
+console.log(user.email);
+console.log(user1.email);
